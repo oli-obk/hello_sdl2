@@ -9,6 +9,13 @@ Hello SDL2!
 Each sample creates a window, displays an image, then waits two seconds and quits.
 
 
+Samples that currently does not build, but did build before
+-----------------------------------------------------------
+
+* GCCGo, after the sdl2 package was changed (possibly due to gccgo supporting an older version of the Go language than the Go compiler)
+* Rust and Rust-Cargo (several errors that are not related to sdl2 nor the sample code)
+
+
 Requirements
 ------------
 
@@ -51,13 +58,6 @@ This is usually caused by changes in external dependencies.
 * Python: 0
 * Rust: 0
 * Rust-Cargo: 0
-
-
-Samples that currently does not build, but did build before
------------------------------------------------------------
-
-* GCCGo, after the sdl2 package was changed (possibly due to gccgo supporting an older version of the Go language than the Go compiler)
-* Rust and Rust-Cargo (several errors that are not related to sdl2 nor the sample code)
 
 
 General information
