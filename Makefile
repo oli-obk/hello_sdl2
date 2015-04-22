@@ -1,4 +1,4 @@
-SAMPLES = c c++ c++11 fpc go mruby nimrod python lua ocaml
+SAMPLES = gccgo rust rust-cargo
 
 all:
 	@-$(foreach x,$(SAMPLES),make -C $(x);)
